@@ -1,0 +1,14 @@
+.join__container {
+    display: flex;
+    column-gap: 83px;
+    width: 100%;
+}
+
+@media (max-width: 380px) {
+    .join__container {
+        flex-direction: column;
+        column-gap: 0;
+        row-gap: 26px;
+
+    }
+}

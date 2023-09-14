@@ -1,0 +1,16 @@
+.logo {
+    margin-bottom: 72px;
+    width: 176px;
+    height: 50px;
+    flex-shrink: 0;
+
+}
+
+@media (max-width: 380px) {
+    .logo {
+        width: 112px;
+        height: 32px;
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+}

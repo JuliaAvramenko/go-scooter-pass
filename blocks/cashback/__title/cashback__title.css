@@ -1,0 +1,24 @@
+.cashback__title {
+    font-family: "YS-Black", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 417px;
+    font-size: 48px;
+
+    font-weight: 900;
+    line-height: 100%;
+    /* 48px */
+    letter-spacing: -0.96px;
+    margin-bottom: 48px;
+}
+
+@media (max-width: 380px) {
+    .cashback__title {
+        width: 311px;
+        font-size: 32px;
+        letter-spacing: -0.64px;
+        margin-bottom: 32px;
+
+
+    }
+}

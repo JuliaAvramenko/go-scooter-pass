@@ -1,0 +1,16 @@
+.cashback {
+    display: flex;
+    flex-direction: column;
+    margin-left: 262px;
+    margin-right: 262px;
+    margin-bottom: 128px;
+}
+
+@media (max-width: 380px) {
+    .cashback {
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-bottom: 26px;
+
+    }
+}

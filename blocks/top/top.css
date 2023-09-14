@@ -1,0 +1,53 @@
+.top {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+
+    height: 804px;
+}
+
+
+
+@media (max-width: 380px) {
+    .top {
+        height: 636px;
+    }
+}
+
+
+.top__scooter {
+    position: absolute;
+    z-index: 7;
+    width: 744px;
+
+    right: 125px;
+    top: 84px;
+
+    object-fit: cover;
+}
+
+@media (max-width: 380px) {
+    .top__scooter {
+        width: 320px;
+        right: 40px;
+        top: 320px;
+    }
+}
+
+.top__ellipse {
+    position: absolute;
+    z-index: 6;
+
+
+    right: 102px;
+    top: -20px;
+    object-fit: cover;
+}
+
+@media (max-width: 380px) {
+    .top__ellipse {
+        display: none;
+    }
+}

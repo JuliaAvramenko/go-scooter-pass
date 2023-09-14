@@ -1,0 +1,10 @@
+.club__container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 380px) {
+    .club__container {
+        align-items: center;
+    }
+}

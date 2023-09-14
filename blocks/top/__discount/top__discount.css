@@ -1,0 +1,30 @@
+.top__discount {
+    padding: 0;
+    margin: 0;
+    width: 79px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #2E2C21;
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 0;
+    border-radius: 500px;
+    background: radial-gradient(141.42% 141.42% at 100% 0%, #E0B8FF 0%, #B6B9FF 100%);
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+@media (max-width: 380px) {
+    .top__discount {
+
+        width: 56px;
+        height: 23px;
+        font-size: 18px;
+
+
+    }
+}

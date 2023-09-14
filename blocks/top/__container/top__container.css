@@ -1,0 +1,19 @@
+.top__container {
+    display: flex;
+
+    flex-direction: column;
+    padding-right: 262px;
+    padding-left: 262px;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    z-index: 10;
+}
+
+@media (max-width: 380px) {
+    .top__container {
+        padding-right: 32px;
+        padding-left: 32px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}

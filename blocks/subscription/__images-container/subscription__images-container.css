@@ -1,0 +1,14 @@
+.subscription__images-container {
+    display: none;
+}
+
+@media (max-width: 380px) {
+    .subscription__images-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        width: 344px;
+
+
+    }
+}

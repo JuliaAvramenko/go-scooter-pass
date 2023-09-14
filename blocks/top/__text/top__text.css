@@ -1,0 +1,18 @@
+.top__text {
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 130%;
+    margin-bottom: 44px;
+    width: 430px;
+
+}
+
+@media (max-width: 380px) {
+    .top__text {
+        width: 311px;
+        font-size: 18px;
+
+    }
+}

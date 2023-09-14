@@ -1,0 +1,11 @@
+.subscription__container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 380px) {
+    .subscription__container {
+        align-items: center;
+
+    }
+}

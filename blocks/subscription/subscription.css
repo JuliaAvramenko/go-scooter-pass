@@ -1,0 +1,18 @@
+.subscription {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 262px;
+    margin-right: 262px;
+    height: 1400px;
+}
+
+@media (max-width: 380px) {
+    .subscription {
+        margin-left: 0;
+        margin-right: 0;
+        height: 739px;
+        margin-bottom: 72px;
+
+    }
+}

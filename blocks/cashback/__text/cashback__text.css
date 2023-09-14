@@ -1,0 +1,15 @@
+.cashback__text {
+    margin: 0;
+    padding: 0;
+    width: 419px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+@media (max-width: 380px) {
+    .cashback__text {
+        width: 311px;
+        font-size: 16px;
+    }
+}

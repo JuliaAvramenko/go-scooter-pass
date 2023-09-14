@@ -1,0 +1,14 @@
+.club__text {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+@media (max-width: 380px) {
+    .club__text {
+        width: 212px;
+        font-size: 16px;
+    }
+}

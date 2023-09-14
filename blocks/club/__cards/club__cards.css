@@ -1,0 +1,16 @@
+.club__cards {
+    display: flex;
+    row-gap: 61px;
+    column-gap: 74px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 380px) {
+    .club__cards {
+        row-gap: 24px;
+        column-gap: 0px;
+        flex-direction: column;
+
+
+    }
+}

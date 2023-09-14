@@ -1,0 +1,17 @@
+.join__text {
+    margin: 0;
+    padding: 0;
+    width: 419px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 48px;
+}
+
+@media (max-width: 380px) {
+    .join__text {
+        width: 311px;
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+}

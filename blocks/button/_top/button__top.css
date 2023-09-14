@@ -1,0 +1,11 @@
+@media (max-width: 380px) {
+    .button_top {
+        width: 311px;
+        height: 49px;
+        font-size: 18px;
+        position: fixed;
+        bottom: 18px;
+
+
+    }
+}

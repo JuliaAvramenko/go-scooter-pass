@@ -1,0 +1,19 @@
+.footer {
+    font-family: "YS-Regular", sans-serif;
+    display: flex;
+
+    margin-left: 262px;
+    margin-left: 262px;
+    margin-bottom: 128px;
+
+}
+
+@media (max-width: 380px) {
+    .footer {
+        margin-left: 32px;
+        margin-left: 32px;
+        margin-bottom: 72px;
+
+
+    }
+}

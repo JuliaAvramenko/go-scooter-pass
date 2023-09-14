@@ -1,0 +1,6 @@
+.subscription__image {
+    width: 456px;
+    height: 456px;
+    object-fit: cover;
+    border-radius: 100px;
+}

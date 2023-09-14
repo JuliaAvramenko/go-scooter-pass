@@ -1,0 +1,11 @@
+.button_join {
+    width: 281px;
+}
+
+@media (max-width: 380px) {
+    .button_join {
+        width: 311px;
+        height: 49px;
+        font-size: 18px;
+    }
+}

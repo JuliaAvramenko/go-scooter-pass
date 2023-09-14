@@ -1,0 +1,17 @@
+.button {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    border-radius: 36px;
+    background: #FFDE40;
+    box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
+    display: flex;
+    width: 318px;
+    height: 65px;
+    padding: 24px 48px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+}

@@ -1,0 +1,40 @@
+.subscription__icon1 {
+    position: absolute;
+    top: 40px;
+    right: -166px;
+    z-index: 10;
+}
+
+@media (max-width: 380px) {
+    .subscription__icon1 {
+        display: none
+    }
+}
+
+.subscription__icon2 {
+    position: absolute;
+    z-index: 10;
+    left: -250px;
+    top: 250px;
+
+}
+
+@media (max-width: 380px) {
+    .subscription__icon2 {
+        display: none
+    }
+}
+
+.subscription__icon3 {
+    position: absolute;
+    z-index: 10;
+    right: 92px;
+    right: -270px;
+    top: 770px
+}
+
+@media (max-width: 380px) {
+    .subscription__icon3 {
+        display: none
+    }
+}

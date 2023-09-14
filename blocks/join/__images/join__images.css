@@ -1,0 +1,15 @@
+.join__images {
+    display: flex;
+    box-sizing: border-box;
+
+    background-image: url(../../../images/ellipse3.svg);
+    background-size: 500px 600px;
+
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 380px) {
+    .join {
+        background-size: cover;
+    }
+}

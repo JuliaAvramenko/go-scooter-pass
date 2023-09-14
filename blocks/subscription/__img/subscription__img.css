@@ -1,0 +1,7 @@
+@media (max-width: 380px) {
+    .subscription__img {
+        width: 344px;
+        height: 344px;
+        border-radius: 50px;
+    }
+}

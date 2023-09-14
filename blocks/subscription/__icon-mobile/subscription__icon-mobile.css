@@ -1,0 +1,9 @@
+@media (max-width: 380px) {
+    .subscription__icon-mobile {
+        position: absolute;
+        width: 258px;
+        top: 230px;
+        right: -55px;
+
+    }
+}

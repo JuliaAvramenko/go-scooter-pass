@@ -1,0 +1,10 @@
+@media (max-width: 380px) {
+    .subscription__images-mobile {
+        display: flex;
+        overflow: hidden;
+        column-gap: 36px;
+        height: 344px;
+        width: 344px;
+
+    }
+}
