@@ -20,12 +20,16 @@
             <img src="images/ellipse.png" alt="" class="top__ellipse">
 
             <div class="top__container">
-                <div class="top__price">
-                    <div class="top__discount">499P</div><s>3420P</s>
-                </div>
+
                 <img src="images/logo.png" alt="яндекс" class="logo">
                 <h1 class="top__title">Вступайте в клуб Самокатов</h1>
-                <p class="top__text">Купите абонемент, чтобы стать частью клуба в новом сезоне–2024. 8 месяцев за</p>
+                <p disabled class="top__text">Купите абонемент, чтобы стать частью клуба в новом сезоне–2024. 8 месяцев
+                    за
+                    <span class="top__price">
+                        <s class="top__discount">499P</s><s class="top__price-up">3420P</s>
+                    </span>
+                </p>
+
                 <button class="button button_top">Стать частью клуба</button>
             </div>
 
@@ -70,20 +74,23 @@
                 <div class="subscription__images-container">
                     <img src="images/icon1.svg" alt="pill" class="subscription__icon-mobile">
                     <div class="subscription__images-mobile">
+                        <template class="subscription-template">
+                            <article class="subscription__image-mobile">
+                                <img src="images/mobile01.png" alt="" class="subscription__img">
+                            </article>
+                        </template>
 
-                        <img src="images/mobile01.png" alt="" class="subscription__img">
-                        <img src="images/img02.png" alt="" class="subscription__img">
                     </div>
                     <div class="subscription__buttons">
-                        <button class="button button_subscription" disabled>
+                        <button class="button button_subscription" disabled id="button-left">
                             <img src="images/left-arrow.svg" alt="arrow" class="subscription__button-image">
                         </button>
-                        <button class="button button_subscription">
+                        <button class="button button_subscription" id="button-right">
                             <img src="images/right-arrow.svg" alt="arrow" class="subscription__button-image">
                         </button>
                     </div>
-
                 </div>
+
                 <div class="subscription__images">
                     <div class="subscription__wrapper1">
                         <img src="images/img01.png" alt="" class="subscription__image">
@@ -109,7 +116,7 @@
         <section class="join">
             <div class="join__container">
                 <div class="join__images">
-                    <img src="images/scooterandwords.svg" alt="" class="join__scooter">
+                    <img src="images/scooterwithwords.png" alt="" class="join__scooter">
                 </div>
                 <div class="join__wrapper">
                     <h2 class="join__title">80 % наших пользователей уже в клубе и экономят на поездках</h2>
@@ -139,6 +146,7 @@
 
 
     </div>
+    <script src="./scripts/slider.js"></script>
 
 </body>
 

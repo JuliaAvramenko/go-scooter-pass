@@ -1,6 +1,6 @@
 .join__container {
     display: flex;
-    column-gap: 83px;
+    column-gap: 58px;
     width: 100%;
 }
 
@@ -8,7 +8,7 @@
     .join__container {
         flex-direction: column;
         column-gap: 0;
-        row-gap: 26px;
+        row-gap: 46px;
 
     }
 }

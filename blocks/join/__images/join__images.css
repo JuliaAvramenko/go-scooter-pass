@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 380px) {
-    .join {
-        background-size: cover;
+    .join__images {
+        background-size: 300px 300px;
     }
 }

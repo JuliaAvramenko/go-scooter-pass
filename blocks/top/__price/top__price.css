@@ -1,19 +1,8 @@
 .top__price {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 570px;
-    left: 410px;
-
-
-    width: 149px;
-    height: 33px;
+    padding: 10px 12px 6px 0px;
+    text-align: center;
     color: #808080;
-
     font-size: 16px;
-
     font-weight: 500;
     line-height: 0;
     border-radius: 500px;
@@ -22,12 +11,8 @@
 
 @media (max-width: 380px) {
     .top__price {
-
-        width: 103px;
-        height: 23px;
+        padding: 5px 9px 2px 0px;
         font-size: 13px;
-        top: 285px;
 
-        left: 144px;
     }
 }

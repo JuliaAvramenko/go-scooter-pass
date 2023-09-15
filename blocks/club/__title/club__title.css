@@ -2,7 +2,7 @@
     font-family: "YS-Black", sans-serif;
     margin: 0;
     padding: 0;
-    width: 650px;
+    width: 640px;
 
     font-size: 56px;
 
@@ -17,9 +17,7 @@
     .club__title {
         width: 311px;
         font-size: 32px;
-
         letter-spacing: -0.64px;
         margin-bottom: 32px;
-
     }
 }

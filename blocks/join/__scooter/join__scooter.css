@@ -1,7 +1,14 @@
 .join__scooter {
     display: flex;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+    object-fit: contain;
+    width: 540px;
+    height: 450px;
 
+}
+
+@media (max-width: 380px) {
+    .join__scooter {
+        width: 283px;
+        height: 283px;
+    }
 }

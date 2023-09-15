@@ -1,14 +1,14 @@
 @font-face {
     font-family: "YS-Regular";
-    src: url("../fonts/YS\ Text\ Regular\ Regular.woff");
+    src: url("./text-regular.woff");
 }
 
 @font-face {
     font-family: "YS-Medium";
-    src: url("../fonts/YS\ Text\ Medium\ Regular.woff");
+    src: url("./text-medium.woff");
 }
 
 @font-face {
     font-family: "YS-Black";
-    src: url("../fonts/YS\ Text\ Bold\ Regular.woff");
+    src: url("./text-black.woff");
 }

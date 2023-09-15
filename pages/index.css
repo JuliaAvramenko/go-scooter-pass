@@ -1,6 +1,5 @@
 @import url(../blocks/container/container.css);
 @import url(../blocks/pages/pages.css);
-
 @import url(../blocks/button/button.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/top/__container/top__container.css);
@@ -9,7 +8,6 @@
 @import url(../blocks/top/__text/top__text.css);
 @import url(../blocks/top/__title/top__title.css);
 @import url(../blocks/top/top.css);
-
 @import url(../blocks/club/__card/club__card.css);
 @import url(../blocks/club/__cards/club__cards.css);
 @import url(../blocks/club/__container/club__container.css);
@@ -25,12 +23,10 @@
 @import url(../blocks/subscription/__image/subscription__image.css);
 @import url(../blocks/subscription/__images/subscription__images.css);
 @import url(../blocks/subscription/__icon/subscription__icon.css);
-
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/footer/footer.css);
-
 @import url(../blocks/cashback/__container/cashback__container.css);
 @import url(../blocks/cashback/__text/cashback__text.css);
 @import url(../blocks/cashback/__title/cashback__title.css);
@@ -39,12 +35,10 @@
 @import url(../blocks/join/__text/join__text.css);
 @import url(../blocks/join/__title/join__title.css);
 @import url(../blocks/join/join.css);
-@import url(../blocks/span/span.css);
 @import url(../blocks/join/__wrapper/join__wrapper.css);
 @import url(../blocks/join/__ellipse/join__ellipse.css);
 @import url(../blocks/join/__images/join__images.css);
 @import url(../blocks/join/__scooter/join__scooter.css);
-
 @import url(../blocks/subscription/__button-image/subscription__button-image.css);
 @import url(../blocks/subscription/__buttons/subscription__buttons.css);
 @import url(../blocks/subscription/__img/subscription__img.css);
@@ -55,3 +49,4 @@
 @import url(../blocks/button/_join/button_join.css);
 @import url(../blocks/button/_top/button__top.css);
 @import url(../blocks/subscription/__icon-mobile/subscription__icon-mobile.css);
+@import url(../blocks/top/__price-up/top__price-up.css);
