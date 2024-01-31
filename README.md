@@ -8,6 +8,3 @@
 #Figma:https://www.figma.com/file/W9gacDyHMIG55KuDwAN2Tl/go-scooter-pass?type=design&node-id=0-1&mode=design&t=nFQfQ7YJ9I99bNxx-0
 
 #Github Pages:  https://juliaavramenko.github.io/go-scooter-pass/
-
-I add test text
-I add in test branch smth
